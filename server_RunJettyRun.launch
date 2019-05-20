@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="RunJettyRunWebApp">
+<booleanAttribute key="com.google.gdt.eclipse.suiteWarArgumentProcessor.IS_WAR_FROM_PROJECT_PROPERTIES" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/cirkus-codetest"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+</listAttribute>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7&quot; javaProject=&quot;cirkus-codetest&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry id=&quot;org.eclipse.jdt.launching.classpathentry.defaultClasspath&quot;&gt;&#10;&lt;memento exportedEntriesOnly=&quot;false&quot; project=&quot;cw-server&quot;/&gt;&#10;&lt;/runtimeClasspathEntry&gt;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;RJRJetty&quot; path=&quot;3&quot; type=&quot;4&quot;/&gt;&#10;"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="RunJettyRunWebAppClassPathProvider"/>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="runjettyrun.Bootstrap"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="cirkus-codetest"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx1024m -XX:MaxPermSize=1024m -Duser.timezone=GMT -Dorg.restlet.engine.loggerFacadeClass=org.restlet.ext.slf4j.Slf4jLoggerFacade"/>
+<stringAttribute key="run_jetty_run.CONTEXT_ATTR" value="/"/>
+<booleanAttribute key="run_jetty_run.ENABLE_JNDI_ATTR" value="false"/>
+<booleanAttribute key="run_jetty_run.ENABLE_NEED_CLIENT_AUTH_ATTR" value="false"/>
+<booleanAttribute key="run_jetty_run.ENABLE_PARENT_LOADER_PRIORITY_ATTR" value="true"/>
+<booleanAttribute key="run_jetty_run.ENABLE_SCANNER_ATTR" value="false"/>
+<booleanAttribute key="run_jetty_run.ENABLE_SSL_ATTR" value="false"/>
+<booleanAttribute key="run_jetty_run.IGNORE_SCAN_CLASS_WHEN_DEBUG_MODE" value="true"/>
+<stringAttribute key="run_jetty_run.JETTY_XML_PATH" value=""/>
+<stringAttribute key="run_jetty_run.KEYSTORE_ATTR" value=""/>
+<stringAttribute key="run_jetty_run.KEY_PWD_ATTR" value=""/>
+<stringAttribute key="run_jetty_run.PORT_ATTR" value="8080"/>
+<stringAttribute key="run_jetty_run.PWD_ATTR" value=""/>
+<stringAttribute key="run_jetty_run.SCANINTERVALSECONDS_ATTR" value=""/>
+<stringAttribute key="run_jetty_run.SELECTED_JETTY_VERSION_ATTR" value="Jetty 8.1.2.v20120308"/>
+<booleanAttribute key="run_jetty_run.SHOW_ADVANCE_ATTR" value="false"/>
+<stringAttribute key="run_jetty_run.SSL_PORT_ATTR" value=""/>
+<stringAttribute key="run_jetty_run.WEBAPPDIR_ATTR" value="src/main/webapp"/>
+<mapAttribute key="run_jetty_run.WEB_CONTEXT_CLASSPATH_NON_CHECKED">
+<mapEntry key="User Custom classpath" value="0"/>
+</mapAttribute>
+</launchConfiguration>
