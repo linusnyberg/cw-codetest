@@ -27,24 +27,26 @@ Some text here about the release process or something.
 
 ### The project comes with out of the box support for following technologies:
 
+<b>Java 8</b> 
+
 <b>Eclipse IDE</b> (contains .project and .classpath)
 
 > In the root folder, you have a file called <i>server_RunJettyRun.launch</i>. This is a config file that can be used using an Eclipse plugin called <i>RunJettyRun</i>. Installing this plugin will enable you to start an embedded Jetty server from within Eclipse in one click.
 See: https://marketplace.eclipse.org/content/run-jetty-run
 
-<b>Apache Maven</b> - Build automation tool and dependency manager<br/>
+<b>Apache Maven 3.6</b> - Build automation tool and dependency manager<br/>
 [https://maven.apache.org/](https://maven.apache.org/)
 
-<b>Restlet Framework</b> - RESTful web API framework<br/>
+<b>Restlet Framework 2.2</b> - RESTful web API framework<br/>
 [http://restlet.com/](http://restlet.com/)
 
 <b>Google Guice 3.0</b> - Depencency Injection framework<br/>
 [https://github.com/google/guice](https://github.com/google/guice)
 
-<b>Morphia</b> - MongoDB ORM framework<br/>
-[https://github.com/mongodb/morphia](https://github.com/mongodb/morphia)
+<b>Morphia 0.111</b> - MongoDB ORM framework<br/>
+[https://github.com/MorphiaOrg/morphia](https://github.com/MorphiaOrg/morphia)
 
-<b>Fongo</b> - MongoDB mock framework<br/>
+<b>Fongo 1.6</b> - MongoDB mock framework<br/>
 [https://github.com/fakemongo/fongo](https://github.com/fakemongo/fongo)
 
 > Since the project comes configured with a MongoDB mock framework (Fongo), no actual MongoDB database server is required to be setup on the development computer. All data created will by default be saved in memory and deleted when the server stops.
