@@ -63,33 +63,39 @@ When the server starts, MongoDB will be populated with three users in the defaul
 
 Each of the features described below should be implemented all the way from setting up appropriate URL route (using best practices for a well-defined REST based web service) to proper server side authentication and data fetching/manipulation in the database.
 
-### Following features should be implemented:
+### Required API features to be implemented:
 
-#### Everyone:
+#### Available to anyone (does not require being logged in):
+
+* Be able to log in using any of the pre-defined users
 
 * Be able to list all available Blogs
 
-* Be able to list all Blog Entries for a Blog
-
-* Be able to view a specific Blog Entry
-
-* Login using any of the pre-defined users
-
-#### Logged in users:
+#### Available to logged in users (requires being logged in):
 
 * Be able to create a new Blog
 
 * Be able to update the name of a Blog owned by this user
 
-* Be able to post new Blog Entries to a Blog owned by this user
-
-* Be able to update the content of a Blog Entry for a Blog owned by this user
-
-* Be able to delete a Blog Entry for a Blog owned by this user
-
 * Get current logged in user
 
 * Logout
+
+### Optional API features to be implemented:
+
+#### Available to anyone (does not require being logged in):
+
+* Be able to list all Blog **Entries** for a Blog
+
+* Be able to view a specific Blog **Entry**
+
+#### Available to logged in users (requires being logged in):
+
+* Be able to post new Blog **Entries** to a Blog owned by this user
+
+* Be able to update the content of a Blog **Entry** for a Blog owned by this user
+
+* Be able to delete a Blog **Entry** for a Blog owned by this user
 
 ## Some basics regarding Restlet, Guice and MongoDB:
 
