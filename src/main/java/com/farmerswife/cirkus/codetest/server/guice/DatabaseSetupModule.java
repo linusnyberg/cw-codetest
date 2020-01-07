@@ -6,6 +6,8 @@
 
 package com.farmerswife.cirkus.codetest.server.guice;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
 
@@ -15,6 +17,7 @@ import com.google.inject.AbstractModule;
 import com.mongodb.MongoClient;
 
 public class DatabaseSetupModule extends AbstractModule {
+	private static Logger log = LogManager.getLogger();
 
 	@Override
 	protected void configure() {
@@ -36,5 +39,7 @@ public class DatabaseSetupModule extends AbstractModule {
 		ds.save(new User("John Doe", "john", "1111"));
 		ds.save(new User("Jane Peterson", "jane", "2222"));
 		ds.save(new User("Frank Westwood", "frank", "3333"));
+		
+		log.info("Initialized database");
 	}
 }
